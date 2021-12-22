@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis mangas favoritos</title>
+    <link rel="stylesheet" href="my_page.css">
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+        caption {
+            font-size: x-large;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body> 
+    <h1>Mis mangas favoritos</h1>
+    <!--Exercise #1-->
+    <a href="#manga1" title="Manga #1">Ir al primer manga</a>
+    <a href="#manga2" title="Manga #2">Ir al segundo manga</a>
+    <a href="#manga3" title="Manga #3">Ir al tercer manga</a>
+    <a href="#myFamily" title="My family">Ir a "mi familia"</a>
+    <div style="text-align: justify;">
+    <ol>
+        <a id="manga1"></a><li><h2>Blue Period</h2></li>
+        <img src="figures\blue_period.jpg" width="300" height="200"/>
+        <img src="figures\blue_period2.jpg" width="300" height="200"/>
+        <img src="figures\blue_period3.jpg" width="300" height="200"/>
+        <p> Me identifico con el personaje de Yatora y sus problemas. En particular, al identificar una carrera. Hay una frase que resignificó bastante lo que pienso sobre mis pasiones: <em>"aquello que te gusta no siempre es divertido".</em></p>
+        <a id="manga2"></a><li><h2>20th Century Boys</h2></li>
+        <img src="figures\century_boys.jpg" width="300" height="200"/>
+        <img src="https://tsundeity.files.wordpress.com/2016/08/21st_century_boys_c07_011-copy.png?w=656" width="300" height="200"/>
+        <img src="https://i0.wp.com/lamazmorradelfriki.com/wp-content/uploads/2021/11/20th-Century-Boys.jpg?fit=1400%2C700&ssl=1" width="300" height="200"/>
+        <p>La historia es larguísima pero me gustó mucho como cada minúsculo detalle repercute después en la trama. Es un manga con un estilo de narración muy similar al de Rayuela.</p>
+        <a id="manga3"></a><li><h2>Monster</h2></li>
+        <img src="figures\monster.jpg" width="300" height="200"/>
+        <img src="figures\monster2.jpg" width="300" height="200"/>
+        <img src="figures\monster3.jpg" width="300" height="200"/>
+        <p>En cuanto a narrativa, este manga es una joyita. Hay personajes que aparecen solo en un episodio cuya historia aún así te hace llorar. El manga más elaborado que he leído hasta la fecha. </p>
+    </ol>
+    </div>
+    <!--Exercise #3: Part 1-->
+    <input type="text" value="Introduce tu nombre" />
+    <input type="text" value="Introduce tu dirección" />
+    <input type="submit" />
+    <br>
+    <br>
+    <br>
+    <!--Exercise #3: Part 2-->
+    <table>
+        <tr>
+            <input type="text" value="Introduce tu nombre" />
+        </tr>
+        <tr>
+            <input type="text" value="Introduce tu apellido" />
+        </tr>
+        <tr>
+        <input type="text" value="Introduce tu ciudad" />
+        </tr>
+        <tr>
+        <input type="text" value="Introduce tu país" />
+        </tr>
+    </table>
+    
+    <br>
+    <br>
+    <br>
+
+    <!--Exercise #4: -->
+    <table >
+        <a id="myFamily"><caption>My family</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Age</th>
+                <th>Relationship</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alejandro</td>
+                <td>Man</td>
+                <td>55</td>
+                <td>Married</td>
+            </tr>
+            <tr>
+                <td>Linda</td>
+                <td>Woman</td>
+                <td>53</td>
+                <td>Married</td>
+            </tr>
+            <tr>
+                <td>Itzel</td>
+                <td>Woman</td>
+                <td>29</td>
+                <td>Single</td>
+            </tr>
+            <tr>
+                <td>Sofia</td>
+                <td>Woman</td>
+                <td>23</td>
+                <td>Single</td>
+            </tr>
+            <tr>
+                <td>Alejandro</td>
+                <td>Man</td>
+                <td>21</td>
+                <td>Single</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
+<!--https://www.ionos.mx/digitalguide/paginas-web/creacion-de-paginas-web/css-grid-layout/-->
